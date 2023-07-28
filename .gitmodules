@@ -1,0 +1,3 @@
+[submodule "root_cern-To_gltf-Exporter"]
+	path = root_cern-To_gltf-Exporter
+	url = git@github.com:HSF/root_cern-To_gltf-Exporter.git
