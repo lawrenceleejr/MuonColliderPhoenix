@@ -15,83 +15,85 @@
 
     var hide_children = [
 
-      /Vertex.*_sens.*/,
-      /component1_1/,
-      /.*Cable.*/
+      // /Vertex.*_sens.*/,
+      // /component1_1/,
+      // /.*Cable.*/
 
     ];
 
     // for each level of hierarchy in the phoenix menu, tell which parts of the geometry to
     // use and whether they are initially visible or not.
     var subparts = {
-      // "Beampipe > Inner": [
-      //   ["BeampipeInner_0"],1
-      //   ],
-      // "Beampipe > Outer": [
-      //   ["BeampipeOuter_1"],1
-      //   ],
-      // "Nozzle > NozzleW": [
-      //   [
-      //     "NozzleW_right_2",
-      //     "NozzleW_left_3",
-      //     ],
-      //   1
-      //   ],
-      // "Nozzle > NozzleBCH": [
-      //   [
-      //     "NozzleBCH_right_4",
-      //     "NozzleBCH_left_5",
-      //     ],
-      //   1
-      //   ],
-      // "Vertex > Vertex" : [
-      //   [
-      //     // /VertexBarrel_.*/,
-      //     // /SiVertexEndcapModule.*_.*/
-      //     ],1
-      //   ],
-      // "Inner Tracker" : [
-      //   [
-      //     // /InnerTrackerBarrelModule_.*/,
-      //     // /InnerTrackerEndcapModule_.*/,
-      //     // /InnerTrackerBarrel.*Support.*/,
-      //     // /InnerTrackerEndcap.*Support.*/,
-      //     ],1
-      //   ],
-      // "Outer Tracker" : [
-      //   [
-      //     // /OuterTrackerBarrelModule_.*/,
-      //     // /OuterTrackerEndcapModule_.*/,
+      "Beampipe": [
+        ["BeampipeInner_0","BeampipeOuter_1"],1
+        ],
+      "Nozzle": [
+        [
+          /NozzleW.*/,
+          /NozzleBCH.*/
+          ],
+        1
+        ],
+      "Vertex > Vertex" : [
+        [
+          /VertexBarrel_.*/,
+          // "VertexBarrel_assembly_0",
+          // /SiVertexEndcapModule1_0_.*/,
+          // "layer_assembly_0_0",
+          ],
+        1,
+        "Vertex"
+        ],
+      "Inner Tracker" : [
+        [
+          // /InnerTrackerBarrelModule_.*/,
+          // /InnerTrackerEndcapModule_.*/,
+          // /InnerTrackerBarrel.*Support.*/,
+          // /InnerTrackerEndcap.*Support.*/,
+          ],1
+        ],
+      "Outer Tracker" : [
+        [
+          // /OuterTrackerBarrelModule_.*/,
+          // /OuterTrackerEndcapModule_.*/,
 
-      //     // /OuterTrackerBarrel.*Support.*/,
-      //     // /OuterTracker.*Support.*/,
-      //     ],1
-      //   ],
+          // /OuterTrackerBarrel.*Support.*/,
+          // /OuterTracker.*Support.*/,
+          ],1
+        ],
 
-      // // "Magnets > Solenoid" : [
-      // //   [
-      // //     /Solenoid_.*/,
-      // //     ],0.5
-      // //   ],
+      // // // "Magnets > Solenoid" : [
+      // // //   [
+      // // //     /Solenoid_.*/,
+      // // //     ],0.5
+      // // //   ],
 
       "Muon > MS" : [
         [
-          // "layerType0_1",
-          // "layerType0_3",
-          // "layerType0_5",
-          // "layerType0_7",
-          // "layerType0_10",
-          // "layerType0_20",
-          // "layerType0_30",
-          // "layerType0_40",
-          // "slice3_3",
+
+          // /stave_outer_.*/,
+          // /stave_inner_.*/,
+          // /layerType.*/,
+          // /slice.*_.*/
+
+
+      //     // "layerType0_3",
+      //     // "layerType0_5",
+      //     // "layerType0_7",
+      //     // "layerType0_10",
+      //     // "layerType0_20",
+      //     // "layerType0_30",
+      //     // "layerType0_40",
+      //     // "slice3_3",
           /slice.*/,
-          // /layerType.*/
-          // "slice3_4",
-          // "slice10_10",
-          // "slice10_11",
+          // "layerType4_74"
+      //     // "slice3_4",
+      //     // "slice10_10",
+      //     // "slice10_11",
           ],
-        1],
+        1,
+        "YokeBarrel_envelope"
+        ],
       // "Muon > layerType0" : [
       //   [
       //     "layerType0_0"
@@ -100,7 +102,7 @@
 
     }
 
-    convertGeometry("./MuColl_10TeV_v0A.root", "MuColl_10TeV_v0A.gltf", 6, subparts, hide_children, "default");
+    convertGeometry("./MuColl_10TeV_v0A.root", "MuColl_10TeV_v0A.gltf", 5, subparts, hide_children, "default");
 
   </script>
 </body>

@@ -45,12 +45,9 @@ function filterArrayInPlace(a, condition, thisArg) {
 function cleanup_geometry(node, hidden_paths, max_level=999, level = 0) {
     if (node.fVolume.fNodes) {
         // drop hidden nodes, and everything after level max_level
-        filterArrayInPlace(node.fVolume.fNodes.arr, n=>level<max_level&&!matches(n.fName, hidden_paths));
-        // filterArrayInPlace(node.fVolume.fNodes.arr, n=>(n.fVolume.fGeoAtt>>3)&0x1);
+        filterArrayInPlace(node.fVolume.fNodes.arr, n=>level<max_level&&!matches(n.fName, hidden_paths)&&((n.fVolume.fGeoAtt>>2)&0x3));
         // recurse to children
         for (const snode of node.fVolume.fNodes.arr) {
-            // console.log(snode.fVolume.fGeoAtt);
-            // console.log("new stuff");
             cleanup_geometry(snode, hidden_paths, max_level, level + 1);
         }
     }
@@ -148,8 +145,6 @@ async function convert_geometry(obj3d, name, body) {
 
 var kVisThis = 0x80;
 var kVisDaughter = 0x8;
-// var kVisThis = 0x0;
-// var kVisDaughter = 0x0;
 
 // goes recursively through shape and sets the number of segments for spheres
 function fixSphereShapes(shape) {
@@ -167,7 +162,7 @@ function fixSphereShapes(shape) {
 
 // makes given node visible
 function setVisible(node) {
-    node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt);
+    node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt | kVisThis);
     // Change the number of faces for sphere so that we avoid having
     // megabytes for the Rich mirrors, which are actually almost flat
     // Default was 20 and 11
@@ -175,12 +170,11 @@ function setVisible(node) {
 }
 // makes given node's daughters visible
 function setVisibleDaughter(node) {
-    node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt);
+    node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt | kVisDaughter);
 }
 // makes given node invisible
 function setInvisible(node) {
-    node.fVolume.fGeoAtt = 0x0;
-    // node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt & ~kVisThis);
+    node.fVolume.fGeoAtt = (node.fVolume.fGeoAtt & ~kVisThis);
 }
 // makes given node and all its children recursively visible
 function set_visible_recursively(node) {
@@ -203,35 +197,57 @@ function set_invisible_recursively(node) {
     }
 }
 
+
+function hasRequiredAncestor(node, requiredAncestor){
+    // return true;
+    if(requiredAncestor=="") return true;
+    if(!node.fMother) return false;
+    // console.log(node.fName + " " + node.fMother.fName + " " + requiredAncestor);
+    // console.dir(node.fName)
+    if(node.fMother.fName.search("Yoke")!=-1){
+        console.log(node.fName + " " + node.fMother.fName + " " + requiredAncestor);
+    }
+    if(node.fMother.fName.startsWith(requiredAncestor)) {
+        return true;
+        // let name = node.fName;
+        // if (typeof(requiredAncestor) == "string") {
+        //     if (name.startsWith(requiredAncestor)) {
+        //         return true;
+        //     }
+        // } else { // needs to be a regexp
+        //     if (name.match(requiredAncestor)) {
+        //         return true;
+        //     }
+        // }
+        // // if(node.fName==requiredAncestor) return true;
+    } else {
+        if(node.fMother.fName.search("slice")==-1) console.log(node.fMother.fName);
+        return hasRequiredAncestor(node.fMother, requiredAncestor)
+    }
+}
+
 /**
  * make only the given paths visible in a geometry and returns
  * whether anything at all is visible
  */
-function keep_only_subpart(volume, paths) {
+function keep_only_subpart(volume, paths, requiredAncestor="") {
     if (!volume.fNodes) return false;
     var anyfound = false;
     for (var j = 0; j < volume.fNodes.arr.length; j++) {
         var snode = volume.fNodes.arr[j];
-        // console.log(snode.fName)
-        // if (matches(snode.fName, paths)) {
-        //     // need to be resursive in case something deeper was hidden in previous round
-        //     set_visible_recursively(snode);
-        //     anyfound=true;
-        // } else {
-        //     // make daughers visible if a subpart is shown
-        //     var subpartfound = keep_only_subpart(snode.fVolume, paths);
-        //     if (subpartfound) {
-        //         setVisibleDaughter(snode);
-        //         anyfound = true;
-        //     }
-        // }
-        if (matches(snode.fName, paths)) {
-            anyfound = true;
+        // console.dir(snode.toString())
+        // asdf
+        // if (!hasRequiredAncestor(snode,requiredAncestor) ) return false;
+        if (matches(snode.fName, paths)&&hasRequiredAncestor(snode,requiredAncestor)) {
+            // need to be resursive in case something deeper was hidden in previous round
+            set_visible_recursively(snode);
+            anyfound=true;
         } else {
             // make daughers visible if a subpart is shown
-            var subpartfound = keep_only_subpart(snode.fVolume, paths);
-            if (!subpartfound) {
-                setInvisible(snode);
+            var subpartfound = keep_only_subpart(snode.fVolume, paths, requiredAncestor);
+            if (subpartfound) {
+                setVisibleDaughter(snode);
+                anyfound = true;
             }
         }
     }
@@ -277,23 +293,29 @@ async function internal_convert_geometry(obj, filename, max_level, subparts, hid
     // for each geometry subpart, duplicate the geometry and keep only the subpart
     body.innerHTML += "<h2>Generating all scenes (one per subpart)</h2>"
     await forceDisplay()
-        // drop nodes we do not want to see at all (usually too detailed parts)
-        cleanup_geometry(obj.fNodes.arr[0], hide_children, max_level);
+
+    console.dir(obj);
 
     for (const [name, entry] of Object.entries(subparts)) {
         body.innerHTML += "  " + name + "</br>"
         await forceDisplay()
+        // drop nodes we do not want to see at all (usually too detailed parts)
+        cleanup_geometry(obj.fNodes.arr[0], hide_children, max_level);
         // dump to gltf, using one scene per subpart
         // set nb of degrees per face for circles approximation to nFaces
         geo.geoCfg('GradPerSegm', 360/nFaces);
         const paths = entry[0];
         const visibility = entry[1];
+        let requiredAncestor = "";
+        if(entry.length>2){
+            requiredAncestor = entry[2];
+        }
         // extract subpart of ROOT geometry
         // first reset visibility to be sure eveything is invisible
-        // set_invisible_recursively(obj.fNodes.arr[0])
+        set_invisible_recursively(obj.fNodes.arr[0])
         // make top node visible
         setVisible(obj.fNodes.arr[0]);
-        keep_only_subpart(obj.fMasterVolume, paths);
+        keep_only_subpart(obj.fMasterVolume, paths, requiredAncestor);
         // convert to gltf
         var scene = new THREE.Scene();
         scene.name = name;
