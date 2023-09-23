@@ -3,60 +3,106 @@
   <head>
     <script src="https://unpkg.com/three@0.139.1/build/three.js"> </script>
     <script src="https://unpkg.com/three@0.139.1/examples/js/exporters/GLTFExporter.js"> </script>
+    <script src="https://unpkg.com/three@0.139.1/examples/js/exporters/ColladaExporter.js"> </script>
     <script src="https://root.cern/js/latest/scripts/JSRoot.core.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
   </head>
 
 <body>
   <script type="module">
-    
+
     import { convertGeometry } from './phoenixExport.js';
 
     var hide_children = [
 
-        // // Drop Rich1 DetSupFrame and QuadrantModule
-        // "_dd_Geometry_BeforeMagnetRegion_Rich1_lvRich1PhDetSupFrame",
-        // "_dd_Geometry_BeforeMagnetRegion_Rich1_lvRich1Mirror1QuadrantModule",
-        
-        // // Drop UT Staves
-        // "_dd_Geometry_BeforeMagnetRegion_UT_Staves",
-    
-        // // Drop FT modules and frames
-        // "_dd_Geometry_AfterMagnetRegion_T_FT_Modules",
-        // "_dd_Geometry_AfterMagnetRegion_T_FT_CFrames",
-
-        // // Drop Rich2 Modules
-        // "_dd_Geometry_BeforeMagnetRegion_Rich1_Rich2StdPmtModule",
-        // "_dd_Geometry_BeforeMagnetRegion_Rich1_Rich2GrandPmtModule",
-        
-        // // Drop Ecal Blocks
-        // "_dd_Geometry_DownstreamRegion_Ecal_Installation_InnBlock",
-        // "_dd_Geometry_DownstreamRegion_Ecal_Installation_MidBlock",
-        // "_dd_Geometry_DownstreamRegion_Ecal_Installation_OutBlock",
-
-        // // Drop Hcal modules
-        // "_dd_Geometry_DownstreamRegion_Hcal_Installation_lvHcalInnHalfModule",
-        // "_dd_Geometry_DownstreamRegion_Hcal_Installation_lvHcalOutHalfModule",
-        // "_dd_Geometry_DownstreamRegion_Hcal_Installation_lvHcalInnMidlHalfModule",
-        
-        // // Drop Muon Chambers
-        // "_dd_Geometry_DownstreamRegion_Muon_M2",
-        // "_dd_Geometry_DownstreamRegion_Muon_M3",
-        // "_dd_Geometry_DownstreamRegion_Muon_M4",
-        // "_dd_Geometry_DownstreamRegion_Muon_M5",
+      // /Vertex.*_sens.*/,
+      // /component1_1/,
+      // /.*Cable.*/
 
     ];
 
     // for each level of hierarchy in the phoenix menu, tell which parts of the geometry to
     // use and whether they are initially visible or not.
     var subparts = {
-        "Muon > YokeBarrel" : [["default/world_volume/YokeBarrel_envelope_14" ],
-                          true],
-        // "Muon > Filter" : [["_dd_Geometry_DownstreamRegion_Muon_lvMuonBack_pvMuFilter"], .3],
+      "Beampipe": [
+        ["BeampipeInner_0","BeampipeOuter_1"],1
+        ],
+      "Nozzle": [
+        [
+          /NozzleW.*/,
+          /NozzleBCH.*/
+          ],
+        1
+        ],
+      "Vertex > Vertex" : [
+        [
+          /VertexBarrel_.*/,
+          // "VertexBarrel_assembly_0",
+          // /SiVertexEndcapModule1_0_.*/,
+          // "layer_assembly_0_0",
+          ],
+        1,
+        "Vertex"
+        ],
+      "Inner Tracker" : [
+        [
+          // /InnerTrackerBarrelModule_.*/,
+          // /InnerTrackerEndcapModule_.*/,
+          // /InnerTrackerBarrel.*Support.*/,
+          // /InnerTrackerEndcap.*Support.*/,
+          ],1
+        ],
+      "Outer Tracker" : [
+        [
+          // /OuterTrackerBarrelModule_.*/,
+          // /OuterTrackerEndcapModule_.*/,
+
+          // /OuterTrackerBarrel.*Support.*/,
+          // /OuterTracker.*Support.*/,
+          ],1
+        ],
+
+      // // // "Magnets > Solenoid" : [
+      // // //   [
+      // // //     /Solenoid_.*/,
+      // // //     ],0.5
+      // // //   ],
+
+      "Muon > MS" : [
+        [
+
+          // /stave_outer_.*/,
+          // /stave_inner_.*/,
+          // /layerType.*/,
+          // /slice.*_.*/
+
+
+      //     // "layerType0_3",
+      //     // "layerType0_5",
+      //     // "layerType0_7",
+      //     // "layerType0_10",
+      //     // "layerType0_20",
+      //     // "layerType0_30",
+      //     // "layerType0_40",
+      //     // "slice3_3",
+          /slice.*/,
+          // "layerType4_74"
+      //     // "slice3_4",
+      //     // "slice10_10",
+      //     // "slice10_11",
+          ],
+        1,
+        "YokeBarrel_envelope"
+        ],
+      // "Muon > layerType0" : [
+      //   [
+      //     "layerType0_0"
+      //     ],
+      //   .3],
 
     }
 
-    convertGeometry("./MuColl_10TeV_v0A.root", "MuColl_10TeV_v0A.gltf", 10, subparts, hide_children);
+    convertGeometry("./MuColl_10TeV_v0A.root", "MuColl_10TeV_v0A.gltf", 5, subparts, hide_children, "default");
 
   </script>
 </body>
