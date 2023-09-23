@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="SolenoidBarrel_layer0_slice0_0inSolenoidBarrel_layer0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_layer0_0inSolenoidBarrel_assemblypos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_layer1_slice0_0inSolenoidBarrel_layer1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_layer1_1inSolenoidBarrel_assemblypos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_layer2_slice0_0inSolenoidBarrel_layer2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_layer2_2inSolenoidBarrel_assemblypos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidBarrel_assembly_0inSolenoidpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidEndcaps_layer0_slice0_0inSolenoidEndcaps_layer0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SolenoidEndcaps_layer0_0inSolenoidEndcapspos" x="0" y="0" z="256.775" unit="cm"/>
+    <position name="SolenoidEndcaps_layer0_1inSolenoidEndcapspos" x="0" y="0" z="-256.775" unit="cm"/>
+    <rotation name="SolenoidEndcaps_layer0_1inSolenoidEndcapsrot" x="180" y="-7.01670929853e-15" z="180" unit="deg"/>
+    <position name="SolenoidEndcaps_1inSolenoidpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="Solenoid_0inworld_volumepos" x="0" y="0" z="0" unit="cm"/>
+  </define>
+  <materials>
+    <element name="N_elm" formula="N" Z="7" N="14">
+      <atom unit="g/mole" value="14.00674"/>
+    </element>
+    <element name="O_elm" formula="O" Z="8" N="15">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="AR_elm" formula="AR" Z="18" N="39">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="Air">
+      <D unit="g/cm3" value="0.0012"/>
+      <fraction n="0.0120000001043" ref="AR_elm"/>
+      <fraction n="0.754000008106" ref="N_elm"/>
+      <fraction n="0.233999997377" ref="O_elm"/>
+    </material>
+    <material name="Vacuum">
+      <D unit="g/cm3" value="1e-10"/>
+      <fraction n="0.0120000001043" ref="AR_elm"/>
+      <fraction n="0.754000008106" ref="N_elm"/>
+      <fraction n="0.233999997377" ref="O_elm"/>
+    </material>
+    <element name="AL_elm" formula="AL" Z="13" N="26">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <material name="Aluminium">
+      <D unit="g/cm3" value="2.699"/>
+      <fraction n="1" ref="AL_elm"/>
+    </material>
+    <element name="FE_elm" formula="FE" Z="26" N="55">
+      <atom unit="g/mole" value="55.845"/>
+    </element>
+    <element name="C_elm" formula="C" Z="6" N="12">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <material name="Steel235">
+      <D unit="g/cm3" value="7.85"/>
+      <fraction n="0.00200000009499" ref="C_elm"/>
+      <fraction n="0.998000025749" ref="FE_elm"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="world_volume_shape_0x1b17720" x="6000" y="6000" z="6000" lunit="cm"/>
+    <tube name="Solenoid_shape_0x1c093f0" rmin="149.98" rmax="177.11" z="514.04" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer0_shape_0x1c1d4a0" rmin="150" rmax="150.3" z="514" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer0_slice0_shape_0x1c1d890" rmin="150" rmax="150.3" z="514" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer1_shape_0x1c1e230" rmin="137.055" rmax="163.545" z="454.8" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer1_slice0_shape_0x1c1e600" rmin="137.055" rmax="163.545" z="454.8" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer2_shape_0x1c1edf0" rmin="176.79" rmax="177.09" z="514" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidBarrel_layer2_slice0_shape_0x1c1f230" rmin="176.79" rmax="177.09" z="514" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidEndcaps_layer0_shape_0x1c1ff30" rmin="150.3" rmax="176.79" z="0.3" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SolenoidEndcaps_layer0_slice0_shape_0x1c201d0" rmin="150.3" rmax="176.79" z="0.3" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+  </solids>
+  <structure>
+    <volume name="SolenoidBarrel_layer0_slice0">
+      <materialref ref="Steel235"/>
+      <solidref ref="SolenoidBarrel_layer0_slice0_shape_0x1c1d890"/>
+    </volume>
+    <volume name="SolenoidBarrel_layer0">
+      <materialref ref="Air"/>
+      <solidref ref="SolenoidBarrel_layer0_shape_0x1c1d4a0"/>
+      <physvol name="SolenoidBarrel_layer0_slice0_0" copynumber="0">
+        <volumeref ref="SolenoidBarrel_layer0_slice0"/>
+        <positionref ref="SolenoidBarrel_layer0_slice0_0inSolenoidBarrel_layer0pos"/>
+      </physvol>
+    </volume>
+    <volume name="SolenoidBarrel_layer1_slice0">
+      <materialref ref="Aluminium"/>
+      <solidref ref="SolenoidBarrel_layer1_slice0_shape_0x1c1e600"/>
+    </volume>
+    <volume name="SolenoidBarrel_layer1">
+      <materialref ref="Air"/>
+      <solidref ref="SolenoidBarrel_layer1_shape_0x1c1e230"/>
+      <physvol name="SolenoidBarrel_layer1_slice0_0" copynumber="0">
+        <volumeref ref="SolenoidBarrel_layer1_slice0"/>
+        <positionref ref="SolenoidBarrel_layer1_slice0_0inSolenoidBarrel_layer1pos"/>
+      </physvol>
+    </volume>
+    <volume name="SolenoidBarrel_layer2_slice0">
+      <materialref ref="Steel235"/>
+      <solidref ref="SolenoidBarrel_layer2_slice0_shape_0x1c1f230"/>
+    </volume>
+    <volume name="SolenoidBarrel_layer2">
+      <materialref ref="Air"/>
+      <solidref ref="SolenoidBarrel_layer2_shape_0x1c1edf0"/>
+      <physvol name="SolenoidBarrel_layer2_slice0_0" copynumber="0">
+        <volumeref ref="SolenoidBarrel_layer2_slice0"/>
+        <positionref ref="SolenoidBarrel_layer2_slice0_0inSolenoidBarrel_layer2pos"/>
+      </physvol>
+    </volume>
+    <assembly name="SolenoidBarrel_assembly">
+      <physvol name="SolenoidBarrel_layer0_0" copynumber="0">
+        <volumeref ref="SolenoidBarrel_layer0"/>
+        <positionref ref="SolenoidBarrel_layer0_0inSolenoidBarrel_assemblypos"/>
+      </physvol>
+      <physvol name="SolenoidBarrel_layer1_1" copynumber="1">
+        <volumeref ref="SolenoidBarrel_layer1"/>
+        <positionref ref="SolenoidBarrel_layer1_1inSolenoidBarrel_assemblypos"/>
+      </physvol>
+      <physvol name="SolenoidBarrel_layer2_2" copynumber="2">
+        <volumeref ref="SolenoidBarrel_layer2"/>
+        <positionref ref="SolenoidBarrel_layer2_2inSolenoidBarrel_assemblypos"/>
+      </physvol>
+    </assembly>
+    <volume name="SolenoidEndcaps_layer0_slice0">
+      <materialref ref="Steel235"/>
+      <solidref ref="SolenoidEndcaps_layer0_slice0_shape_0x1c201d0"/>
+    </volume>
+    <volume name="SolenoidEndcaps_layer0">
+      <materialref ref="Air"/>
+      <solidref ref="SolenoidEndcaps_layer0_shape_0x1c1ff30"/>
+      <physvol name="SolenoidEndcaps_layer0_slice0_0" copynumber="0">
+        <volumeref ref="SolenoidEndcaps_layer0_slice0"/>
+        <positionref ref="SolenoidEndcaps_layer0_slice0_0inSolenoidEndcaps_layer0pos"/>
+      </physvol>
+    </volume>
+    <assembly name="SolenoidEndcaps">
+      <physvol name="SolenoidEndcaps_layer0_0" copynumber="0">
+        <volumeref ref="SolenoidEndcaps_layer0"/>
+        <positionref ref="SolenoidEndcaps_layer0_0inSolenoidEndcapspos"/>
+      </physvol>
+      <physvol name="SolenoidEndcaps_layer0_1" copynumber="1">
+        <volumeref ref="SolenoidEndcaps_layer0"/>
+        <positionref ref="SolenoidEndcaps_layer0_1inSolenoidEndcapspos"/>
+        <rotationref ref="SolenoidEndcaps_layer0_1inSolenoidEndcapsrot"/>
+      </physvol>
+    </assembly>
+    <volume name="Solenoid">
+      <materialref ref="Vacuum"/>
+      <solidref ref="Solenoid_shape_0x1c093f0"/>
+      <physvol name="SolenoidBarrel_assembly_0" copynumber="0">
+        <volumeref ref="SolenoidBarrel_assembly"/>
+        <positionref ref="SolenoidBarrel_assembly_0inSolenoidpos"/>
+      </physvol>
+      <physvol name="SolenoidEndcaps_1" copynumber="1">
+        <volumeref ref="SolenoidEndcaps"/>
+        <positionref ref="SolenoidEndcaps_1inSolenoidpos"/>
+      </physvol>
+    </volume>
+    <volume name="world_volume">
+      <materialref ref="Air"/>
+      <solidref ref="world_volume_shape_0x1b17720"/>
+      <physvol name="Solenoid_0" copynumber="0">
+        <volumeref ref="Solenoid"/>
+        <positionref ref="Solenoid_0inworld_volumepos"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="world_volume"/>
+  </setup>
+</gdml>
