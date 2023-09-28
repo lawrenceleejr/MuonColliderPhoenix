@@ -297,125 +297,125 @@
     </material>
   </materials>
   <solids>
-    <box name="world_volume_shape_0x2784940" x="6000" y="6000" z="6000" lunit="cm"/>
-    <polyhedra name="YokeBarrel_envelope_shape_0x145bf50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <box name="world_volume_shape_0x2d54810" x="6000" y="6000" z="6000" lunit="cm"/>
+    <polyhedra name="YokeBarrel_envelope_shape_0x1a15f50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-456.21" rmin="409.9" rmax="710.1"/>
       <zplane z="456.21" rmin="409.9" rmax="710.1"/>
     </polyhedra>
-    <trd name="stave_outer_shape_0x287ac30" x1="219.718337794" x2="383.274524853" y1="912.42" y2="912.42" z="305.2" lunit="cm"/>
-    <trd name="stave_inner_shape_0x28cdf50" x1="219.718337794" x2="383.274524853" y1="912.42" y2="912.42" z="305.2" lunit="cm"/>
-    <box name="layerType0_shape_0x23cd4d0" x="219.718337794" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x23cd450" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x288ee30" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x288f270" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x288f6b0" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x288faf0" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x288ff30" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x2890370" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x28907b0" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x2890bf0" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x2891030" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x2891470" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x28918b0" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x2891cf0" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x2892130" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x28925a0" x="219.718337794" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x2892da0" x="243.083507374" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x2893120" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x2893630" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x2893a30" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x2893e30" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x2894230" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x2894630" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x2894a30" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x2894e30" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x2895230" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x2895630" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x2895a30" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x2895e30" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x2896230" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x2896630" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x2896a30" x="243.083507374" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x2897070" x="266.448676954" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x28973f0" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x2897900" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x2897d00" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x2898100" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x2898500" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x2898900" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x2898d00" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x2899100" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x2899500" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x2899900" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x2899d00" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x289a100" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x289a500" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x289a900" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x289ad00" x="266.448676954" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x289b340" x="289.813846534" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x289b6c0" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x289bbd0" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x289bfd0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x289c3d0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x289c7d0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x289cbd0" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x289cfd0" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x289d3d0" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x289d7d0" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x289dbd0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x289dfd0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x289e3d0" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x289e7d0" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x28d75d0" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x28d79a0" x="289.813846534" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x28d7f80" x="313.179016113" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x28d8300" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x28d87b0" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x28d8b80" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x28d8f50" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x28d9320" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x28d96f0" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x28d9ac0" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x28d9e90" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x28da260" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x28da630" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x28daa60" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x28dae60" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x28db260" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x28db660" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x28dba60" x="313.179016113" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x28dc0a0" x="336.544185693" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x28dc420" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x28dc930" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x28dcd30" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x28dd130" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x28dd530" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x28dd930" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x28ddd30" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x28de130" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x28de530" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x28de930" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x28ded30" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x28df130" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x28df530" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x28df930" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x28dfd30" x="336.544185693" y="912.42" z="40.6" lunit="cm"/>
-    <box name="layerType0_shape_0x28e0370" x="359.909355273" y="912.42" z="43.6" lunit="cm"/>
-    <box name="slice0_shape_0x28e06f0" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice1_shape_0x28e0c00" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice2_shape_0x28e1000" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice3_shape_0x28e1400" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice4_shape_0x28e1800" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice5_shape_0x28e1c00" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice6_shape_0x28e2000" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice7_shape_0x28e2400" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice8_shape_0x28e2800" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice9_shape_0x28e2c00" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice10_shape_0x28e3000" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice11_shape_0x28e3400" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
-    <box name="slice12_shape_0x28e3800" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
-    <box name="slice13_shape_0x28e3c00" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
-    <box name="slice14_shape_0x28e4000" x="359.909355273" y="912.42" z="40.6" lunit="cm"/>
+    <trd name="stave_outer_shape_0x2e9e040" x1="219.718337794" x2="383.274524853" y1="912.42" y2="912.42" z="305.2" lunit="cm"/>
+    <trd name="stave_inner_shape_0x2e9aef0" x1="219.718337794" x2="383.274524853" y1="912.42" y2="912.42" z="305.2" lunit="cm"/>
+    <box name="layerType0_shape_0x2987890" x="219.718337794" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2987810" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2e5f2d0" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2e5f710" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2e5fb50" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2e5ff90" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2e603d0" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2e60810" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2e60c50" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2e61090" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2e614d0" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2e61910" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2e61d50" x="219.718337794" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2e62190" x="219.718337794" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2e625d0" x="219.718337794" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2e62a10" x="219.718337794" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2e63210" x="243.083507374" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2e63590" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2e63aa0" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2e63ea0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2e642a0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2e646a0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2e64aa0" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2e64ea0" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2e652a0" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2e656a0" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2e65aa0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2e65ea0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2e662a0" x="243.083507374" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2e666a0" x="243.083507374" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2e66aa0" x="243.083507374" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2e66ea0" x="243.083507374" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2e674e0" x="266.448676954" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2e67860" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2e67d70" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2e68170" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2e68570" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2e68970" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2e68d70" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2e69170" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2e69570" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2e69970" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2e69d70" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2e6a170" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2e6a570" x="266.448676954" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2e6a970" x="266.448676954" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2e6ad70" x="266.448676954" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2e6b170" x="266.448676954" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2e6b7b0" x="289.813846534" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2e6bb30" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2e6c040" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2e6c440" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2e6c840" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2e6cc40" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2e6d040" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2e6d440" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2e6d840" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2e6dc40" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2e6e040" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2e6e440" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2e6e840" x="289.813846534" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2e6ec40" x="289.813846534" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2ea7a10" x="289.813846534" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2ea7de0" x="289.813846534" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2ea83c0" x="313.179016113" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2ea8740" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2ea8bf0" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2ea8fc0" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2ea9390" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2ea9760" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2ea9b30" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2ea9f00" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2eaa2d0" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2eaa6d0" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2eaab00" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2eaaf00" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2eab300" x="313.179016113" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2eab700" x="313.179016113" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2eabb00" x="313.179016113" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2eabf00" x="313.179016113" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2eac540" x="336.544185693" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2eac8c0" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2eacdd0" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2ead1d0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2ead5d0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2ead9d0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2eaddd0" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2eae1d0" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2eae5d0" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2eae9d0" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2eaedd0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2eaf1d0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2eaf5d0" x="336.544185693" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2eaf9d0" x="336.544185693" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2eafdd0" x="336.544185693" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2eb01d0" x="336.544185693" y="912.42" z="40.6" lunit="cm"/>
+    <box name="layerType0_shape_0x2eb0810" x="359.909355273" y="912.42" z="43.6" lunit="cm"/>
+    <box name="slice0_shape_0x2eb0b90" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice1_shape_0x2eb10a0" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice2_shape_0x2eb14a0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice3_shape_0x2eb18a0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice4_shape_0x2eb1ca0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice5_shape_0x2eb20a0" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice6_shape_0x2eb24a0" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice7_shape_0x2eb28a0" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice8_shape_0x2eb2ca0" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice9_shape_0x2eb30a0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice10_shape_0x2eb34a0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice11_shape_0x2eb38a0" x="359.909355273" y="912.42" z="0.2" lunit="cm"/>
+    <box name="slice12_shape_0x2eb3ca0" x="359.909355273" y="912.42" z="0.35" lunit="cm"/>
+    <box name="slice13_shape_0x2eb40a0" x="359.909355273" y="912.42" z="0.1" lunit="cm"/>
+    <box name="slice14_shape_0x2eb44a0" x="359.909355273" y="912.42" z="40.6" lunit="cm"/>
     <polyhedra name="TGeoPgon" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-602.11" rmin="0" rmax="710.1"/>
       <zplane z="602.11" rmin="0" rmax="710.1"/>
@@ -424,418 +424,418 @@
       <zplane z="-456.21" rmin="0" rmax="710.2"/>
       <zplane z="456.21" rmin="0" rmax="710.2"/>
     </polyhedra>
-    <subtraction name="YokeEndcap_envelope_shape_0x28f25f0_left">
+    <subtraction name="YokeEndcap_envelope_shape_0x2ec2cd0_left">
       <first ref="TGeoPgon"/>
       <second ref="TGeoPgon0x1"/>
     </subtraction>
-    <polycone name="YokeEndcap_envelope_shape_0x28f25f0_right" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+    <polycone name="YokeEndcap_envelope_shape_0x2ec2cd0_right" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
       <zplane z="-602.12" rmin="0" rmax="57.5"/>
       <zplane z="-456.19" rmin="0" rmax="44.6"/>
       <zplane z="456.19" rmin="0" rmax="44.6"/>
       <zplane z="602.12" rmin="0" rmax="57.5"/>
     </polycone>
-    <subtraction name="YokeEndcap_envelope_shape_0x28f25f0">
-      <first ref="YokeEndcap_envelope_shape_0x28f25f0_left"/>
-      <second ref="YokeEndcap_envelope_shape_0x28f25f0_right"/>
+    <subtraction name="YokeEndcap_envelope_shape_0x2ec2cd0">
+      <first ref="YokeEndcap_envelope_shape_0x2ec2cd0_left"/>
+      <second ref="YokeEndcap_envelope_shape_0x2ec2cd0_right"/>
     </subtraction>
-    <polyhedra name="endcap_shape_0x2900650_left" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="endcap_shape_0x2ed00a0_left" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-73" rmin="0" rmax="710"/>
       <zplane z="73" rmin="0" rmax="710"/>
     </polyhedra>
-    <cone name="endcap_shape_0x2900650_right" z="146.733668342" rmin1="0" rmin2="0" rmax1="44.6" rmax2="57.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <subtraction name="endcap_shape_0x2900650">
-      <first ref="endcap_shape_0x2900650_left"/>
-      <second ref="endcap_shape_0x2900650_right"/>
+    <cone name="endcap_shape_0x2ed00a0_right" z="146.733668342" rmin1="0" rmin2="0" rmax1="44.6" rmax2="57.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="endcap_shape_0x2ed00a0">
+      <first ref="endcap_shape_0x2ed00a0_left"/>
+      <second ref="endcap_shape_0x2ed00a0_right"/>
     </subtraction>
-    <polyhedra name="layerType0_shape_0x2901470" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType0_shape_0x2ed0e70" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="46.6062208398" rmax="710"/>
       <zplane z="11.35" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x29019a0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2ed13a0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="46.6062208398" rmax="710"/>
       <zplane z="9.85" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x2902230" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2ed1c30" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.05" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x29028b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2ed22b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.175" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x2902f30" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2ed2930" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x29035b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2ed2fb0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x2903c30" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2ed3630" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x29042b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2ed3cb0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.175" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x2904930" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2ed4330" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.05" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x2904fb0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2ed49b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.05" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x2905630" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2ed5030" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.175" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x2905cb0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2ed56b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x2906330" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2ed5d30" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x29069b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2ed63b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.1" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x2907030" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2ed6a30" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.175" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x29076b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2ed70b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="46.6062208398" rmax="710"/>
       <zplane z="0.05" rmin="46.6062208398" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType1_shape_0x29081b0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType1_shape_0x2ed7bb0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="48.6124416796" rmax="710"/>
       <zplane z="11.35" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x2908750" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2ed8150" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="48.6124416796" rmax="710"/>
       <zplane z="9.85" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x2908ec0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2ed88c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.05" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x2909540" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2ed8f40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.175" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x2909bc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2ed95c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x290a240" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2ed9c40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x290a8c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2eda2c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x290af40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2eda940" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.175" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x290b5c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2edafc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.05" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x290bc40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2edb640" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.05" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x290c2c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2edbcc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.175" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x290c940" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2edc340" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x290cfc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2edc9c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x290d640" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2edd040" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.1" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x290dcc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2edd6c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.175" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x290e340" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2eddd40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="48.6124416796" rmax="710"/>
       <zplane z="0.05" rmin="48.6124416796" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType2_shape_0x290ecf0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType2_shape_0x2ede6f0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="50.6186625194" rmax="710"/>
       <zplane z="11.35" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x290f220" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2edec20" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="50.6186625194" rmax="710"/>
       <zplane z="9.85" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x290f990" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2edf390" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.05" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x2910010" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2edfa10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.175" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x2910690" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2ee0090" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x2910d10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2ee06d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x2911390" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2ee0d50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x2911a10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2ee13d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.175" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x2912090" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2ee1a50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.05" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x2912710" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2ee20d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.05" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x2912d90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2ee2750" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.175" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x2913410" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2ee2dd0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x2913a90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2ee3450" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x2914110" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2ee3ad0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.1" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x2914790" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2ee4150" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.175" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x2914e10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2ee47d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="50.6186625194" rmax="710"/>
       <zplane z="0.05" rmin="50.6186625194" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType3_shape_0x29157c0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType3_shape_0x2ee5180" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="52.6248833593" rmax="710"/>
       <zplane z="11.35" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x2915d60" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2ee5720" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="52.6248833593" rmax="710"/>
       <zplane z="9.85" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x29164d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2ee5e90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.05" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x2916b50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2ee6510" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.175" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x29171d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2ee6b90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x2917850" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2ee7210" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x2917ed0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2ee7890" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x2918550" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2ee7f10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.175" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x2918bd0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2ee8590" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.05" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x2919250" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2ee8c10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.05" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x29198d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2ee9290" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.175" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x2919f50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2ee9910" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x291a5d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2ee9f90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x291ac50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2eea610" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.1" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x291b2d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2eeac90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.175" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x291b950" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2eeb310" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="52.6248833593" rmax="710"/>
       <zplane z="0.05" rmin="52.6248833593" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType4_shape_0x291c300" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType4_shape_0x2eebcc0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="54.6311041991" rmax="710"/>
       <zplane z="11.35" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x291c8a0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2eec260" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="54.6311041991" rmax="710"/>
       <zplane z="9.85" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x291d010" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2eec9d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.05" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x291d690" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2eed050" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.175" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x291dd10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2eed6d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x291e390" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2eedd50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x291ea10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2eee3d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x291f090" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2eeea50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.175" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x291f710" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2eef0d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.05" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x291fd90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2eef750" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.05" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x2920410" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2eefdd0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.175" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x2920a90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2ef0450" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x2921110" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2ef0ad0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x2921790" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2ef1150" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.1" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x2921e10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2ef17d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.175" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x2922490" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2ef1e50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="54.6311041991" rmax="710"/>
       <zplane z="0.05" rmin="54.6311041991" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType5_shape_0x2922e40" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType5_shape_0x2ef2800" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-11.35" rmin="56.6373250389" rmax="710"/>
       <zplane z="11.35" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x29233e0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2ef2da0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-9.85" rmin="56.6373250389" rmax="710"/>
       <zplane z="9.85" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice1_shape_0x2923b50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice1_shape_0x2ef3510" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.05" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice2_shape_0x29241d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice2_shape_0x2ef3b90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.175" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice3_shape_0x2924850" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice3_shape_0x2ef4210" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice4_shape_0x2924ed0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice4_shape_0x2ef4890" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice5_shape_0x2925550" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice5_shape_0x2ef4f10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice6_shape_0x2925bd0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice6_shape_0x2ef5590" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.175" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice7_shape_0x2926250" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice7_shape_0x2ef5c10" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.05" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice8_shape_0x29268d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice8_shape_0x2ef6290" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.05" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice9_shape_0x2926f50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice9_shape_0x2ef6910" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.175" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice10_shape_0x29275d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice10_shape_0x2ef6f90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice11_shape_0x2927c50" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice11_shape_0x2ef7610" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice12_shape_0x29282d0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice12_shape_0x2ef7c90" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.1" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.1" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice13_shape_0x2928950" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice13_shape_0x2ef8310" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.175" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.175" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice14_shape_0x2928fd0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice14_shape_0x2ef8990" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-0.05" rmin="56.6373250389" rmax="710"/>
       <zplane z="0.05" rmin="56.6373250389" rmax="710"/>
     </polyhedra>
-    <polyhedra name="layerType6_shape_0x29299e0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="layerType6_shape_0x2ef93a0" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-4.9" rmin="57.5" rmax="710"/>
       <zplane z="4.9" rmin="57.5" rmax="710"/>
     </polyhedra>
-    <polyhedra name="slice0_shape_0x2929f80" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
+    <polyhedra name="slice0_shape_0x2ef9940" startphi="0" deltaphi="360" numsides="12" aunit="deg" lunit="cm">
       <zplane z="-4.9" rmin="57.5" rmax="710"/>
       <zplane z="4.9" rmin="57.5" rmax="710"/>
     </polyhedra>
@@ -843,67 +843,67 @@
   <structure>
     <volume name="slice0">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x23cd450"/>
+      <solidref ref="slice0_shape_0x2987810"/>
     </volume>
     <volume name="slice1">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x288ee30"/>
+      <solidref ref="slice1_shape_0x2e5f2d0"/>
     </volume>
     <volume name="slice2">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x288f270"/>
+      <solidref ref="slice2_shape_0x2e5f710"/>
     </volume>
     <volume name="slice3">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x288f6b0"/>
+      <solidref ref="slice3_shape_0x2e5fb50"/>
     </volume>
     <volume name="slice4">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x288faf0"/>
+      <solidref ref="slice4_shape_0x2e5ff90"/>
     </volume>
     <volume name="slice5">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x288ff30"/>
+      <solidref ref="slice5_shape_0x2e603d0"/>
     </volume>
     <volume name="slice6">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x2890370"/>
+      <solidref ref="slice6_shape_0x2e60810"/>
     </volume>
     <volume name="slice7">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x28907b0"/>
+      <solidref ref="slice7_shape_0x2e60c50"/>
     </volume>
     <volume name="slice8">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x2890bf0"/>
+      <solidref ref="slice8_shape_0x2e61090"/>
     </volume>
     <volume name="slice9">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x2891030"/>
+      <solidref ref="slice9_shape_0x2e614d0"/>
     </volume>
     <volume name="slice10">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x2891470"/>
+      <solidref ref="slice10_shape_0x2e61910"/>
     </volume>
     <volume name="slice11">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x28918b0"/>
+      <solidref ref="slice11_shape_0x2e61d50"/>
     </volume>
     <volume name="slice12">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x2891cf0"/>
+      <solidref ref="slice12_shape_0x2e62190"/>
     </volume>
     <volume name="slice13">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x2892130"/>
+      <solidref ref="slice13_shape_0x2e625d0"/>
     </volume>
     <volume name="slice14">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x28925a0"/>
+      <solidref ref="slice14_shape_0x2e62a10"/>
     </volume>
     <volume name="layerType0">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x23cd4d0"/>
+      <solidref ref="layerType0_shape_0x2987890"/>
       <physvol name="slice0_0" copynumber="0">
         <volumeref ref="slice0"/>
         <positionref ref="slice0_0inlayerType0pos"/>
@@ -967,67 +967,67 @@
     </volume>
     <volume name="slice00x1">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x2893120"/>
+      <solidref ref="slice0_shape_0x2e63590"/>
     </volume>
     <volume name="slice10x1">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x2893630"/>
+      <solidref ref="slice1_shape_0x2e63aa0"/>
     </volume>
     <volume name="slice20x1">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x2893a30"/>
+      <solidref ref="slice2_shape_0x2e63ea0"/>
     </volume>
     <volume name="slice30x1">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x2893e30"/>
+      <solidref ref="slice3_shape_0x2e642a0"/>
     </volume>
     <volume name="slice40x1">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x2894230"/>
+      <solidref ref="slice4_shape_0x2e646a0"/>
     </volume>
     <volume name="slice50x1">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x2894630"/>
+      <solidref ref="slice5_shape_0x2e64aa0"/>
     </volume>
     <volume name="slice60x1">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x2894a30"/>
+      <solidref ref="slice6_shape_0x2e64ea0"/>
     </volume>
     <volume name="slice70x1">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2894e30"/>
+      <solidref ref="slice7_shape_0x2e652a0"/>
     </volume>
     <volume name="slice80x1">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x2895230"/>
+      <solidref ref="slice8_shape_0x2e656a0"/>
     </volume>
     <volume name="slice90x1">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x2895630"/>
+      <solidref ref="slice9_shape_0x2e65aa0"/>
     </volume>
     <volume name="slice100x1">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x2895a30"/>
+      <solidref ref="slice10_shape_0x2e65ea0"/>
     </volume>
     <volume name="slice110x1">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x2895e30"/>
+      <solidref ref="slice11_shape_0x2e662a0"/>
     </volume>
     <volume name="slice120x1">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x2896230"/>
+      <solidref ref="slice12_shape_0x2e666a0"/>
     </volume>
     <volume name="slice130x1">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x2896630"/>
+      <solidref ref="slice13_shape_0x2e66aa0"/>
     </volume>
     <volume name="slice140x1">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x2896a30"/>
+      <solidref ref="slice14_shape_0x2e66ea0"/>
     </volume>
     <volume name="layerType00x1">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x2892da0"/>
+      <solidref ref="layerType0_shape_0x2e63210"/>
       <physvol name="slice0_00x1" copynumber="0">
         <volumeref ref="slice00x1"/>
         <positionref ref="slice0_00x1inlayerType00x1pos"/>
@@ -1091,67 +1091,67 @@
     </volume>
     <volume name="slice00x2">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x28973f0"/>
+      <solidref ref="slice0_shape_0x2e67860"/>
     </volume>
     <volume name="slice10x2">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x2897900"/>
+      <solidref ref="slice1_shape_0x2e67d70"/>
     </volume>
     <volume name="slice20x2">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x2897d00"/>
+      <solidref ref="slice2_shape_0x2e68170"/>
     </volume>
     <volume name="slice30x2">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x2898100"/>
+      <solidref ref="slice3_shape_0x2e68570"/>
     </volume>
     <volume name="slice40x2">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x2898500"/>
+      <solidref ref="slice4_shape_0x2e68970"/>
     </volume>
     <volume name="slice50x2">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x2898900"/>
+      <solidref ref="slice5_shape_0x2e68d70"/>
     </volume>
     <volume name="slice60x2">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x2898d00"/>
+      <solidref ref="slice6_shape_0x2e69170"/>
     </volume>
     <volume name="slice70x2">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2899100"/>
+      <solidref ref="slice7_shape_0x2e69570"/>
     </volume>
     <volume name="slice80x2">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x2899500"/>
+      <solidref ref="slice8_shape_0x2e69970"/>
     </volume>
     <volume name="slice90x2">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x2899900"/>
+      <solidref ref="slice9_shape_0x2e69d70"/>
     </volume>
     <volume name="slice100x2">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x2899d00"/>
+      <solidref ref="slice10_shape_0x2e6a170"/>
     </volume>
     <volume name="slice110x2">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x289a100"/>
+      <solidref ref="slice11_shape_0x2e6a570"/>
     </volume>
     <volume name="slice120x2">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x289a500"/>
+      <solidref ref="slice12_shape_0x2e6a970"/>
     </volume>
     <volume name="slice130x2">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x289a900"/>
+      <solidref ref="slice13_shape_0x2e6ad70"/>
     </volume>
     <volume name="slice140x2">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x289ad00"/>
+      <solidref ref="slice14_shape_0x2e6b170"/>
     </volume>
     <volume name="layerType00x2">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x2897070"/>
+      <solidref ref="layerType0_shape_0x2e674e0"/>
       <physvol name="slice0_00x2" copynumber="0">
         <volumeref ref="slice00x2"/>
         <positionref ref="slice0_00x2inlayerType00x2pos"/>
@@ -1215,67 +1215,67 @@
     </volume>
     <volume name="slice00x3">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x289b6c0"/>
+      <solidref ref="slice0_shape_0x2e6bb30"/>
     </volume>
     <volume name="slice10x3">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x289bbd0"/>
+      <solidref ref="slice1_shape_0x2e6c040"/>
     </volume>
     <volume name="slice20x3">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x289bfd0"/>
+      <solidref ref="slice2_shape_0x2e6c440"/>
     </volume>
     <volume name="slice30x3">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x289c3d0"/>
+      <solidref ref="slice3_shape_0x2e6c840"/>
     </volume>
     <volume name="slice40x3">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x289c7d0"/>
+      <solidref ref="slice4_shape_0x2e6cc40"/>
     </volume>
     <volume name="slice50x3">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x289cbd0"/>
+      <solidref ref="slice5_shape_0x2e6d040"/>
     </volume>
     <volume name="slice60x3">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x289cfd0"/>
+      <solidref ref="slice6_shape_0x2e6d440"/>
     </volume>
     <volume name="slice70x3">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x289d3d0"/>
+      <solidref ref="slice7_shape_0x2e6d840"/>
     </volume>
     <volume name="slice80x3">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x289d7d0"/>
+      <solidref ref="slice8_shape_0x2e6dc40"/>
     </volume>
     <volume name="slice90x3">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x289dbd0"/>
+      <solidref ref="slice9_shape_0x2e6e040"/>
     </volume>
     <volume name="slice100x3">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x289dfd0"/>
+      <solidref ref="slice10_shape_0x2e6e440"/>
     </volume>
     <volume name="slice110x3">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x289e3d0"/>
+      <solidref ref="slice11_shape_0x2e6e840"/>
     </volume>
     <volume name="slice120x3">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x289e7d0"/>
+      <solidref ref="slice12_shape_0x2e6ec40"/>
     </volume>
     <volume name="slice130x3">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x28d75d0"/>
+      <solidref ref="slice13_shape_0x2ea7a10"/>
     </volume>
     <volume name="slice140x3">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x28d79a0"/>
+      <solidref ref="slice14_shape_0x2ea7de0"/>
     </volume>
     <volume name="layerType00x3">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x289b340"/>
+      <solidref ref="layerType0_shape_0x2e6b7b0"/>
       <physvol name="slice0_00x3" copynumber="0">
         <volumeref ref="slice00x3"/>
         <positionref ref="slice0_00x3inlayerType00x3pos"/>
@@ -1339,67 +1339,67 @@
     </volume>
     <volume name="slice00x4">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x28d8300"/>
+      <solidref ref="slice0_shape_0x2ea8740"/>
     </volume>
     <volume name="slice10x4">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x28d87b0"/>
+      <solidref ref="slice1_shape_0x2ea8bf0"/>
     </volume>
     <volume name="slice20x4">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x28d8b80"/>
+      <solidref ref="slice2_shape_0x2ea8fc0"/>
     </volume>
     <volume name="slice30x4">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x28d8f50"/>
+      <solidref ref="slice3_shape_0x2ea9390"/>
     </volume>
     <volume name="slice40x4">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x28d9320"/>
+      <solidref ref="slice4_shape_0x2ea9760"/>
     </volume>
     <volume name="slice50x4">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x28d96f0"/>
+      <solidref ref="slice5_shape_0x2ea9b30"/>
     </volume>
     <volume name="slice60x4">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x28d9ac0"/>
+      <solidref ref="slice6_shape_0x2ea9f00"/>
     </volume>
     <volume name="slice70x4">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x28d9e90"/>
+      <solidref ref="slice7_shape_0x2eaa2d0"/>
     </volume>
     <volume name="slice80x4">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x28da260"/>
+      <solidref ref="slice8_shape_0x2eaa6d0"/>
     </volume>
     <volume name="slice90x4">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x28da630"/>
+      <solidref ref="slice9_shape_0x2eaab00"/>
     </volume>
     <volume name="slice100x4">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x28daa60"/>
+      <solidref ref="slice10_shape_0x2eaaf00"/>
     </volume>
     <volume name="slice110x4">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x28dae60"/>
+      <solidref ref="slice11_shape_0x2eab300"/>
     </volume>
     <volume name="slice120x4">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x28db260"/>
+      <solidref ref="slice12_shape_0x2eab700"/>
     </volume>
     <volume name="slice130x4">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x28db660"/>
+      <solidref ref="slice13_shape_0x2eabb00"/>
     </volume>
     <volume name="slice140x4">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x28dba60"/>
+      <solidref ref="slice14_shape_0x2eabf00"/>
     </volume>
     <volume name="layerType00x4">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x28d7f80"/>
+      <solidref ref="layerType0_shape_0x2ea83c0"/>
       <physvol name="slice0_00x4" copynumber="0">
         <volumeref ref="slice00x4"/>
         <positionref ref="slice0_00x4inlayerType00x4pos"/>
@@ -1463,67 +1463,67 @@
     </volume>
     <volume name="slice00x5">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x28dc420"/>
+      <solidref ref="slice0_shape_0x2eac8c0"/>
     </volume>
     <volume name="slice10x5">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x28dc930"/>
+      <solidref ref="slice1_shape_0x2eacdd0"/>
     </volume>
     <volume name="slice20x5">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x28dcd30"/>
+      <solidref ref="slice2_shape_0x2ead1d0"/>
     </volume>
     <volume name="slice30x5">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x28dd130"/>
+      <solidref ref="slice3_shape_0x2ead5d0"/>
     </volume>
     <volume name="slice40x5">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x28dd530"/>
+      <solidref ref="slice4_shape_0x2ead9d0"/>
     </volume>
     <volume name="slice50x5">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x28dd930"/>
+      <solidref ref="slice5_shape_0x2eaddd0"/>
     </volume>
     <volume name="slice60x5">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x28ddd30"/>
+      <solidref ref="slice6_shape_0x2eae1d0"/>
     </volume>
     <volume name="slice70x5">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x28de130"/>
+      <solidref ref="slice7_shape_0x2eae5d0"/>
     </volume>
     <volume name="slice80x5">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x28de530"/>
+      <solidref ref="slice8_shape_0x2eae9d0"/>
     </volume>
     <volume name="slice90x5">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x28de930"/>
+      <solidref ref="slice9_shape_0x2eaedd0"/>
     </volume>
     <volume name="slice100x5">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x28ded30"/>
+      <solidref ref="slice10_shape_0x2eaf1d0"/>
     </volume>
     <volume name="slice110x5">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x28df130"/>
+      <solidref ref="slice11_shape_0x2eaf5d0"/>
     </volume>
     <volume name="slice120x5">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x28df530"/>
+      <solidref ref="slice12_shape_0x2eaf9d0"/>
     </volume>
     <volume name="slice130x5">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x28df930"/>
+      <solidref ref="slice13_shape_0x2eafdd0"/>
     </volume>
     <volume name="slice140x5">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x28dfd30"/>
+      <solidref ref="slice14_shape_0x2eb01d0"/>
     </volume>
     <volume name="layerType00x5">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x28dc0a0"/>
+      <solidref ref="layerType0_shape_0x2eac540"/>
       <physvol name="slice0_00x5" copynumber="0">
         <volumeref ref="slice00x5"/>
         <positionref ref="slice0_00x5inlayerType00x5pos"/>
@@ -1587,67 +1587,67 @@
     </volume>
     <volume name="slice00x6">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice0_shape_0x28e06f0"/>
+      <solidref ref="slice0_shape_0x2eb0b90"/>
     </volume>
     <volume name="slice10x6">
       <materialref ref="Air"/>
-      <solidref ref="slice1_shape_0x28e0c00"/>
+      <solidref ref="slice1_shape_0x2eb10a0"/>
     </volume>
     <volume name="slice20x6">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice2_shape_0x28e1000"/>
+      <solidref ref="slice2_shape_0x2eb14a0"/>
     </volume>
     <volume name="slice30x6">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice3_shape_0x28e1400"/>
+      <solidref ref="slice3_shape_0x2eb18a0"/>
     </volume>
     <volume name="slice40x6">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice4_shape_0x28e1800"/>
+      <solidref ref="slice4_shape_0x2eb1ca0"/>
     </volume>
     <volume name="slice50x6">
       <materialref ref="Air"/>
-      <solidref ref="slice5_shape_0x28e1c00"/>
+      <solidref ref="slice5_shape_0x2eb20a0"/>
     </volume>
     <volume name="slice60x6">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice6_shape_0x28e2000"/>
+      <solidref ref="slice6_shape_0x2eb24a0"/>
     </volume>
     <volume name="slice70x6">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x28e2400"/>
+      <solidref ref="slice7_shape_0x2eb28a0"/>
     </volume>
     <volume name="slice80x6">
       <materialref ref="Air"/>
-      <solidref ref="slice8_shape_0x28e2800"/>
+      <solidref ref="slice8_shape_0x2eb2ca0"/>
     </volume>
     <volume name="slice90x6">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice9_shape_0x28e2c00"/>
+      <solidref ref="slice9_shape_0x2eb30a0"/>
     </volume>
     <volume name="slice100x6">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice10_shape_0x28e3000"/>
+      <solidref ref="slice10_shape_0x2eb34a0"/>
     </volume>
     <volume name="slice110x6">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice11_shape_0x28e3400"/>
+      <solidref ref="slice11_shape_0x2eb38a0"/>
     </volume>
     <volume name="slice120x6">
       <materialref ref="Air"/>
-      <solidref ref="slice12_shape_0x28e3800"/>
+      <solidref ref="slice12_shape_0x2eb3ca0"/>
     </volume>
     <volume name="slice130x6">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice13_shape_0x28e3c00"/>
+      <solidref ref="slice13_shape_0x2eb40a0"/>
     </volume>
     <volume name="slice140x6">
       <materialref ref="Air"/>
-      <solidref ref="slice14_shape_0x28e4000"/>
+      <solidref ref="slice14_shape_0x2eb44a0"/>
     </volume>
     <volume name="layerType00x6">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x28e0370"/>
+      <solidref ref="layerType0_shape_0x2eb0810"/>
       <physvol name="slice0_00x6" copynumber="0">
         <volumeref ref="slice00x6"/>
         <positionref ref="slice0_00x6inlayerType00x6pos"/>
@@ -1711,7 +1711,7 @@
     </volume>
     <volume name="stave_inner">
       <materialref ref="Air"/>
-      <solidref ref="stave_inner_shape_0x28cdf50"/>
+      <solidref ref="stave_inner_shape_0x2e9aef0"/>
       <physvol name="layerType0_0" copynumber="0">
         <volumeref ref="layerType0"/>
         <positionref ref="layerType0_0instave_innerpos"/>
@@ -1743,7 +1743,7 @@
     </volume>
     <volume name="stave_outer">
       <materialref ref="Air"/>
-      <solidref ref="stave_outer_shape_0x287ac30"/>
+      <solidref ref="stave_outer_shape_0x2e9e040"/>
       <physvol name="stave_inner_0" copynumber="0">
         <volumeref ref="stave_inner"/>
         <positionref ref="stave_inner_0instave_outerpos"/>
@@ -1751,7 +1751,7 @@
     </volume>
     <volume name="YokeBarrel_envelope">
       <materialref ref="Air"/>
-      <solidref ref="YokeBarrel_envelope_shape_0x145bf50"/>
+      <solidref ref="YokeBarrel_envelope_shape_0x1a15f50"/>
       <physvol name="stave_outer_0" copynumber="0">
         <volumeref ref="stave_outer"/>
         <positionref ref="stave_outer_0inYokeBarrel_envelopepos"/>
@@ -1815,67 +1815,67 @@
     </volume>
     <volume name="slice00x7">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x29019a0"/>
+      <solidref ref="slice0_shape_0x2ed13a0"/>
     </volume>
     <volume name="slice10x7">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x2902230"/>
+      <solidref ref="slice1_shape_0x2ed1c30"/>
     </volume>
     <volume name="slice20x7">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x29028b0"/>
+      <solidref ref="slice2_shape_0x2ed22b0"/>
     </volume>
     <volume name="slice30x7">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x2902f30"/>
+      <solidref ref="slice3_shape_0x2ed2930"/>
     </volume>
     <volume name="slice40x7">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x29035b0"/>
+      <solidref ref="slice4_shape_0x2ed2fb0"/>
     </volume>
     <volume name="slice50x7">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x2903c30"/>
+      <solidref ref="slice5_shape_0x2ed3630"/>
     </volume>
     <volume name="slice60x7">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x29042b0"/>
+      <solidref ref="slice6_shape_0x2ed3cb0"/>
     </volume>
     <volume name="slice70x7">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2904930"/>
+      <solidref ref="slice7_shape_0x2ed4330"/>
     </volume>
     <volume name="slice80x7">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x2904fb0"/>
+      <solidref ref="slice8_shape_0x2ed49b0"/>
     </volume>
     <volume name="slice90x7">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x2905630"/>
+      <solidref ref="slice9_shape_0x2ed5030"/>
     </volume>
     <volume name="slice100x7">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x2905cb0"/>
+      <solidref ref="slice10_shape_0x2ed56b0"/>
     </volume>
     <volume name="slice110x7">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x2906330"/>
+      <solidref ref="slice11_shape_0x2ed5d30"/>
     </volume>
     <volume name="slice120x7">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x29069b0"/>
+      <solidref ref="slice12_shape_0x2ed63b0"/>
     </volume>
     <volume name="slice130x7">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x2907030"/>
+      <solidref ref="slice13_shape_0x2ed6a30"/>
     </volume>
     <volume name="slice140x7">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x29076b0"/>
+      <solidref ref="slice14_shape_0x2ed70b0"/>
     </volume>
     <volume name="layerType00x7">
       <materialref ref="Air"/>
-      <solidref ref="layerType0_shape_0x2901470"/>
+      <solidref ref="layerType0_shape_0x2ed0e70"/>
       <physvol name="slice0_00x7" copynumber="0">
         <volumeref ref="slice00x7"/>
         <positionref ref="slice0_00x7inlayerType00x7pos"/>
@@ -1939,67 +1939,67 @@
     </volume>
     <volume name="slice00x8">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x2908750"/>
+      <solidref ref="slice0_shape_0x2ed8150"/>
     </volume>
     <volume name="slice10x8">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x2908ec0"/>
+      <solidref ref="slice1_shape_0x2ed88c0"/>
     </volume>
     <volume name="slice20x8">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x2909540"/>
+      <solidref ref="slice2_shape_0x2ed8f40"/>
     </volume>
     <volume name="slice30x8">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x2909bc0"/>
+      <solidref ref="slice3_shape_0x2ed95c0"/>
     </volume>
     <volume name="slice40x8">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x290a240"/>
+      <solidref ref="slice4_shape_0x2ed9c40"/>
     </volume>
     <volume name="slice50x8">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x290a8c0"/>
+      <solidref ref="slice5_shape_0x2eda2c0"/>
     </volume>
     <volume name="slice60x8">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x290af40"/>
+      <solidref ref="slice6_shape_0x2eda940"/>
     </volume>
     <volume name="slice70x8">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x290b5c0"/>
+      <solidref ref="slice7_shape_0x2edafc0"/>
     </volume>
     <volume name="slice80x8">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x290bc40"/>
+      <solidref ref="slice8_shape_0x2edb640"/>
     </volume>
     <volume name="slice90x8">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x290c2c0"/>
+      <solidref ref="slice9_shape_0x2edbcc0"/>
     </volume>
     <volume name="slice100x8">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x290c940"/>
+      <solidref ref="slice10_shape_0x2edc340"/>
     </volume>
     <volume name="slice110x8">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x290cfc0"/>
+      <solidref ref="slice11_shape_0x2edc9c0"/>
     </volume>
     <volume name="slice120x8">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x290d640"/>
+      <solidref ref="slice12_shape_0x2edd040"/>
     </volume>
     <volume name="slice130x8">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x290dcc0"/>
+      <solidref ref="slice13_shape_0x2edd6c0"/>
     </volume>
     <volume name="slice140x8">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x290e340"/>
+      <solidref ref="slice14_shape_0x2eddd40"/>
     </volume>
     <volume name="layerType1">
       <materialref ref="Air"/>
-      <solidref ref="layerType1_shape_0x29081b0"/>
+      <solidref ref="layerType1_shape_0x2ed7bb0"/>
       <physvol name="slice0_00x8" copynumber="0">
         <volumeref ref="slice00x8"/>
         <positionref ref="slice0_00x8inlayerType1pos"/>
@@ -2063,67 +2063,67 @@
     </volume>
     <volume name="slice00x9">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x290f220"/>
+      <solidref ref="slice0_shape_0x2edec20"/>
     </volume>
     <volume name="slice10x9">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x290f990"/>
+      <solidref ref="slice1_shape_0x2edf390"/>
     </volume>
     <volume name="slice20x9">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x2910010"/>
+      <solidref ref="slice2_shape_0x2edfa10"/>
     </volume>
     <volume name="slice30x9">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x2910690"/>
+      <solidref ref="slice3_shape_0x2ee0090"/>
     </volume>
     <volume name="slice40x9">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x2910d10"/>
+      <solidref ref="slice4_shape_0x2ee06d0"/>
     </volume>
     <volume name="slice50x9">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x2911390"/>
+      <solidref ref="slice5_shape_0x2ee0d50"/>
     </volume>
     <volume name="slice60x9">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x2911a10"/>
+      <solidref ref="slice6_shape_0x2ee13d0"/>
     </volume>
     <volume name="slice70x9">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2912090"/>
+      <solidref ref="slice7_shape_0x2ee1a50"/>
     </volume>
     <volume name="slice80x9">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x2912710"/>
+      <solidref ref="slice8_shape_0x2ee20d0"/>
     </volume>
     <volume name="slice90x9">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x2912d90"/>
+      <solidref ref="slice9_shape_0x2ee2750"/>
     </volume>
     <volume name="slice100x9">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x2913410"/>
+      <solidref ref="slice10_shape_0x2ee2dd0"/>
     </volume>
     <volume name="slice110x9">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x2913a90"/>
+      <solidref ref="slice11_shape_0x2ee3450"/>
     </volume>
     <volume name="slice120x9">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x2914110"/>
+      <solidref ref="slice12_shape_0x2ee3ad0"/>
     </volume>
     <volume name="slice130x9">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x2914790"/>
+      <solidref ref="slice13_shape_0x2ee4150"/>
     </volume>
     <volume name="slice140x9">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x2914e10"/>
+      <solidref ref="slice14_shape_0x2ee47d0"/>
     </volume>
     <volume name="layerType2">
       <materialref ref="Air"/>
-      <solidref ref="layerType2_shape_0x290ecf0"/>
+      <solidref ref="layerType2_shape_0x2ede6f0"/>
       <physvol name="slice0_00x9" copynumber="0">
         <volumeref ref="slice00x9"/>
         <positionref ref="slice0_00x9inlayerType2pos"/>
@@ -2187,67 +2187,67 @@
     </volume>
     <volume name="slice00x10">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x2915d60"/>
+      <solidref ref="slice0_shape_0x2ee5720"/>
     </volume>
     <volume name="slice10x10">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x29164d0"/>
+      <solidref ref="slice1_shape_0x2ee5e90"/>
     </volume>
     <volume name="slice20x10">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x2916b50"/>
+      <solidref ref="slice2_shape_0x2ee6510"/>
     </volume>
     <volume name="slice30x10">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x29171d0"/>
+      <solidref ref="slice3_shape_0x2ee6b90"/>
     </volume>
     <volume name="slice40x10">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x2917850"/>
+      <solidref ref="slice4_shape_0x2ee7210"/>
     </volume>
     <volume name="slice50x10">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x2917ed0"/>
+      <solidref ref="slice5_shape_0x2ee7890"/>
     </volume>
     <volume name="slice60x10">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x2918550"/>
+      <solidref ref="slice6_shape_0x2ee7f10"/>
     </volume>
     <volume name="slice70x10">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2918bd0"/>
+      <solidref ref="slice7_shape_0x2ee8590"/>
     </volume>
     <volume name="slice80x10">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x2919250"/>
+      <solidref ref="slice8_shape_0x2ee8c10"/>
     </volume>
     <volume name="slice90x10">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x29198d0"/>
+      <solidref ref="slice9_shape_0x2ee9290"/>
     </volume>
     <volume name="slice100x10">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x2919f50"/>
+      <solidref ref="slice10_shape_0x2ee9910"/>
     </volume>
     <volume name="slice110x10">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x291a5d0"/>
+      <solidref ref="slice11_shape_0x2ee9f90"/>
     </volume>
     <volume name="slice120x10">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x291ac50"/>
+      <solidref ref="slice12_shape_0x2eea610"/>
     </volume>
     <volume name="slice130x10">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x291b2d0"/>
+      <solidref ref="slice13_shape_0x2eeac90"/>
     </volume>
     <volume name="slice140x10">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x291b950"/>
+      <solidref ref="slice14_shape_0x2eeb310"/>
     </volume>
     <volume name="layerType3">
       <materialref ref="Air"/>
-      <solidref ref="layerType3_shape_0x29157c0"/>
+      <solidref ref="layerType3_shape_0x2ee5180"/>
       <physvol name="slice0_00x10" copynumber="0">
         <volumeref ref="slice00x10"/>
         <positionref ref="slice0_00x10inlayerType3pos"/>
@@ -2311,67 +2311,67 @@
     </volume>
     <volume name="slice00x11">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x291c8a0"/>
+      <solidref ref="slice0_shape_0x2eec260"/>
     </volume>
     <volume name="slice10x11">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x291d010"/>
+      <solidref ref="slice1_shape_0x2eec9d0"/>
     </volume>
     <volume name="slice20x11">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x291d690"/>
+      <solidref ref="slice2_shape_0x2eed050"/>
     </volume>
     <volume name="slice30x11">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x291dd10"/>
+      <solidref ref="slice3_shape_0x2eed6d0"/>
     </volume>
     <volume name="slice40x11">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x291e390"/>
+      <solidref ref="slice4_shape_0x2eedd50"/>
     </volume>
     <volume name="slice50x11">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x291ea10"/>
+      <solidref ref="slice5_shape_0x2eee3d0"/>
     </volume>
     <volume name="slice60x11">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x291f090"/>
+      <solidref ref="slice6_shape_0x2eeea50"/>
     </volume>
     <volume name="slice70x11">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x291f710"/>
+      <solidref ref="slice7_shape_0x2eef0d0"/>
     </volume>
     <volume name="slice80x11">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x291fd90"/>
+      <solidref ref="slice8_shape_0x2eef750"/>
     </volume>
     <volume name="slice90x11">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x2920410"/>
+      <solidref ref="slice9_shape_0x2eefdd0"/>
     </volume>
     <volume name="slice100x11">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x2920a90"/>
+      <solidref ref="slice10_shape_0x2ef0450"/>
     </volume>
     <volume name="slice110x11">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x2921110"/>
+      <solidref ref="slice11_shape_0x2ef0ad0"/>
     </volume>
     <volume name="slice120x11">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x2921790"/>
+      <solidref ref="slice12_shape_0x2ef1150"/>
     </volume>
     <volume name="slice130x11">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x2921e10"/>
+      <solidref ref="slice13_shape_0x2ef17d0"/>
     </volume>
     <volume name="slice140x11">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x2922490"/>
+      <solidref ref="slice14_shape_0x2ef1e50"/>
     </volume>
     <volume name="layerType4">
       <materialref ref="Air"/>
-      <solidref ref="layerType4_shape_0x291c300"/>
+      <solidref ref="layerType4_shape_0x2eebcc0"/>
       <physvol name="slice0_00x11" copynumber="0">
         <volumeref ref="slice00x11"/>
         <positionref ref="slice0_00x11inlayerType4pos"/>
@@ -2435,67 +2435,67 @@
     </volume>
     <volume name="slice00x12">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x29233e0"/>
+      <solidref ref="slice0_shape_0x2ef2da0"/>
     </volume>
     <volume name="slice10x12">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice1_shape_0x2923b50"/>
+      <solidref ref="slice1_shape_0x2ef3510"/>
     </volume>
     <volume name="slice20x12">
       <materialref ref="Air"/>
-      <solidref ref="slice2_shape_0x29241d0"/>
+      <solidref ref="slice2_shape_0x2ef3b90"/>
     </volume>
     <volume name="slice30x12">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice3_shape_0x2924850"/>
+      <solidref ref="slice3_shape_0x2ef4210"/>
     </volume>
     <volume name="slice40x12">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice4_shape_0x2924ed0"/>
+      <solidref ref="slice4_shape_0x2ef4890"/>
     </volume>
     <volume name="slice50x12">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice5_shape_0x2925550"/>
+      <solidref ref="slice5_shape_0x2ef4f10"/>
     </volume>
     <volume name="slice60x12">
       <materialref ref="Air"/>
-      <solidref ref="slice6_shape_0x2925bd0"/>
+      <solidref ref="slice6_shape_0x2ef5590"/>
     </volume>
     <volume name="slice70x12">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice7_shape_0x2926250"/>
+      <solidref ref="slice7_shape_0x2ef5c10"/>
     </volume>
     <volume name="slice80x12">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice8_shape_0x29268d0"/>
+      <solidref ref="slice8_shape_0x2ef6290"/>
     </volume>
     <volume name="slice90x12">
       <materialref ref="Air"/>
-      <solidref ref="slice9_shape_0x2926f50"/>
+      <solidref ref="slice9_shape_0x2ef6910"/>
     </volume>
     <volume name="slice100x12">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice10_shape_0x29275d0"/>
+      <solidref ref="slice10_shape_0x2ef6f90"/>
     </volume>
     <volume name="slice110x12">
       <materialref ref="RPCGasDefault"/>
-      <solidref ref="slice11_shape_0x2927c50"/>
+      <solidref ref="slice11_shape_0x2ef7610"/>
     </volume>
     <volume name="slice120x12">
       <materialref ref="PyrexGlass"/>
-      <solidref ref="slice12_shape_0x29282d0"/>
+      <solidref ref="slice12_shape_0x2ef7c90"/>
     </volume>
     <volume name="slice130x12">
       <materialref ref="Air"/>
-      <solidref ref="slice13_shape_0x2928950"/>
+      <solidref ref="slice13_shape_0x2ef8310"/>
     </volume>
     <volume name="slice140x12">
       <materialref ref="Aluminium"/>
-      <solidref ref="slice14_shape_0x2928fd0"/>
+      <solidref ref="slice14_shape_0x2ef8990"/>
     </volume>
     <volume name="layerType5">
       <materialref ref="Air"/>
-      <solidref ref="layerType5_shape_0x2922e40"/>
+      <solidref ref="layerType5_shape_0x2ef2800"/>
       <physvol name="slice0_00x12" copynumber="0">
         <volumeref ref="slice00x12"/>
         <positionref ref="slice0_00x12inlayerType5pos"/>
@@ -2559,11 +2559,11 @@
     </volume>
     <volume name="slice00x13">
       <materialref ref="Air"/>
-      <solidref ref="slice0_shape_0x2929f80"/>
+      <solidref ref="slice0_shape_0x2ef9940"/>
     </volume>
     <volume name="layerType6">
       <materialref ref="Air"/>
-      <solidref ref="layerType6_shape_0x29299e0"/>
+      <solidref ref="layerType6_shape_0x2ef93a0"/>
       <physvol name="slice0_00x13" copynumber="0">
         <volumeref ref="slice00x13"/>
         <positionref ref="slice0_00x13inlayerType6pos"/>
@@ -2571,7 +2571,7 @@
     </volume>
     <volume name="endcap">
       <materialref ref="Air"/>
-      <solidref ref="endcap_shape_0x2900650"/>
+      <solidref ref="endcap_shape_0x2ed00a0"/>
       <physvol name="layerType0_00x1" copynumber="0">
         <volumeref ref="layerType00x7"/>
         <positionref ref="layerType0_00x1inendcappos"/>
@@ -2603,7 +2603,7 @@
     </volume>
     <volume name="YokeEndcap_envelope">
       <materialref ref="Air"/>
-      <solidref ref="YokeEndcap_envelope_shape_0x28f25f0"/>
+      <solidref ref="YokeEndcap_envelope_shape_0x2ec2cd0"/>
       <physvol name="endcap_0" copynumber="0">
         <volumeref ref="endcap"/>
         <positionref ref="endcap_0inYokeEndcap_envelopepos"/>
@@ -2616,7 +2616,7 @@
     </volume>
     <volume name="world_volume">
       <materialref ref="Air"/>
-      <solidref ref="world_volume_shape_0x2784940"/>
+      <solidref ref="world_volume_shape_0x2d54810"/>
       <physvol name="YokeBarrel_envelope_0" copynumber="0">
         <volumeref ref="YokeBarrel_envelope"/>
         <positionref ref="YokeBarrel_envelope_0inworld_volumepos"/>

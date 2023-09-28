@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="BeampipeInner_0inworld_volumepos" x="0" y="0" z="0" unit="cm"/>
+    <position name="BeampipeOuter_1inworld_volumepos" x="0" y="0" z="0" unit="cm"/>
+  </define>
+  <materials>
+    <element name="N_elm" formula="N" Z="7" N="14">
+      <atom unit="g/mole" value="14.00674"/>
+    </element>
+    <element name="O_elm" formula="O" Z="8" N="15">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="AR_elm" formula="AR" Z="18" N="39">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="Air">
+      <D unit="g/cm3" value="0.0012"/>
+      <fraction n="0.0120000001043" ref="AR_elm"/>
+      <fraction n="0.754000008106" ref="N_elm"/>
+      <fraction n="0.233999997377" ref="O_elm"/>
+    </material>
+    <material name="Vacuum">
+      <D unit="g/cm3" value="1e-10"/>
+      <fraction n="0.0120000001043" ref="AR_elm"/>
+      <fraction n="0.754000008106" ref="N_elm"/>
+      <fraction n="0.233999997377" ref="O_elm"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="world_volume_shape_0x249d000" x="6000" y="6000" z="6000" lunit="cm"/>
+    <polycone name="BeampipeInner_shape_0x258d9d0" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-600" rmin="0" rmax="1.78"/>
+      <zplane z="-400" rmin="0" rmax="1.19"/>
+      <zplane z="-200" rmin="0" rmax="0.6"/>
+      <zplane z="-100" rmin="0" rmax="0.3"/>
+      <zplane z="-15" rmin="0" rmax="0.6"/>
+      <zplane z="-6" rmin="0" rmax="1"/>
+      <zplane z="6" rmin="0" rmax="1"/>
+      <zplane z="15" rmin="0" rmax="0.6"/>
+      <zplane z="100" rmin="0" rmax="0.3"/>
+      <zplane z="200" rmin="0" rmax="0.6"/>
+      <zplane z="400" rmin="0" rmax="1.19"/>
+      <zplane z="600" rmin="0" rmax="1.78"/>
+    </polycone>
+    <polycone name="BeampipeOuter_shape_0x25dc870" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-13.23" rmin="2.281" rmax="2.281"/>
+      <zplane z="-6.25" rmin="1.02483" rmax="2.2"/>
+      <zplane z="-6" rmin="1" rmax="2.2"/>
+      <zplane z="6" rmin="1" rmax="2.2"/>
+      <zplane z="6.25" rmin="1.02483" rmax="2.2"/>
+      <zplane z="13.23" rmin="2.281" rmax="2.281"/>
+    </polycone>
+  </solids>
+  <structure>
+    <volume name="BeampipeInner">
+      <materialref ref="Vacuum"/>
+      <solidref ref="BeampipeInner_shape_0x258d9d0"/>
+    </volume>
+    <volume name="BeampipeOuter">
+      <materialref ref="Vacuum"/>
+      <solidref ref="BeampipeOuter_shape_0x25dc870"/>
+    </volume>
+    <volume name="world_volume">
+      <materialref ref="Air"/>
+      <solidref ref="world_volume_shape_0x249d000"/>
+      <physvol name="BeampipeInner_0" copynumber="0">
+        <volumeref ref="BeampipeInner"/>
+        <positionref ref="BeampipeInner_0inworld_volumepos"/>
+      </physvol>
+      <physvol name="BeampipeOuter_1" copynumber="1">
+        <volumeref ref="BeampipeOuter"/>
+        <positionref ref="BeampipeOuter_1inworld_volumepos"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="world_volume"/>
+  </setup>
+</gdml>
